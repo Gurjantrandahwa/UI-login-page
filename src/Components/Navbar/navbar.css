@@ -1,0 +1,48 @@
+.nav-container {
+
+
+}
+
+nav {
+    display: flex;
+    margin-top: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    justify-content: center;
+}
+
+li {
+    margin-left: 70px;
+    font-weight: 580;
+
+}
+
+.button-wrapper {
+    margin-right: 100px;
+}
+
+.sign-in {
+   margin-right: 30px!important;
+    text-transform:none!important;
+    font-weight: 600!important;
+    color: var(--primary)!important;
+}
+
+.register {
+    color: black !important;
+    font-weight: 580 !important;
+    background-color: white !important;
+    border-radius: 20px !important;
+    text-transform: none !important;
+    padding: 4px 25px !important;
+    -webkit-box-shadow: 3px 4px 31px -4px #b3d1ff!important;
+    box-shadow: 3px 4px 31px -7px 	#b3d1ff!important;
+}
+
+.color {
+    color: var(--primary);
+}
