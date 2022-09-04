@@ -1,10 +1,8 @@
 import './App.css';
-import SignIn from "./Components/SignIn/SignIn";
-import Navbar from "./Components/Navbar/Navbar";
+import SignIn from "./SignIn/SignIn";
 
 function App() {
-    return <div className={"app"}>
-        <Navbar/>
+    return <div className={"app"} >
       <SignIn/>
     </div>
 }
